@@ -2,9 +2,9 @@
 # **My Dwm Simple Backup**
 
 ## **Fonts**
-    WenQuanYi Micro Hei
+    WenQuanYi Micro Hei :  wqy-microhei 
 
-    Symbole Nerd Fonts
+    Symbole Nerd Fonts  :   ttf-nerd-fonts-symbols-2048-em
 
 ### IconFonts **[Nerd Font Icons](https://www.nerdfonts.com/cheat-sheet)**
 
