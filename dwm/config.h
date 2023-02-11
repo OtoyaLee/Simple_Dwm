@@ -68,13 +68,13 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "alacritty", NULL };
-static const char *volumedown[]  = { "/home/otoya/SoftWare/dwm/volumedown.sh", NULL };
-static const char *volumeup[]  = { "/home/otoya/SoftWare/dwm/volumeup.sh", NULL };
-static const char *lightdown[]  = { "/home/otoya/SoftWare/dwm/lightdown.sh", NULL };
-static const char *lightup[]  = { "/home/otoya/SoftWare/dwm/lightup.sh", NULL };
-static const char *rofi[]  = { "/home/otoya/SoftWare/dwm/rofi.sh", NULL };
-static const char *i3lock[]  = { "/home/otoya/SoftWare/dwm/i3lock.sh", NULL };
-static const char *shotcut[]  = { "/home/otoya/SoftWare/dwm/shotcut.sh", NULL };
+static const char *volumedown[]  = { "/home/otoya/Simple_Dwm/dwm/volumedown.sh", NULL };
+static const char *volumeup[]  = { "/home/otoya/Simple_Dwm/dwm/volumeup.sh", NULL };
+static const char *lightdown[]  = { "/home/otoya/Simple_Dwm/dwm/lightdown.sh", NULL };
+static const char *lightup[]  = { "/home/otoya/Simple_Dwm/dwm/lightup.sh", NULL };
+static const char *rofi[]  = { "/home/otoya/Simple_Dwm/dwm/rofi.sh", NULL };
+static const char *i3lock[]  = { "/home/otoya/Simple_Dwm/dwm/i3lock.sh", NULL };
+static const char *shotcut[]  = { "/home/otoya/Simple_Dwm/dwm/shotcut.sh", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -86,7 +86,7 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_l,     spawn,           {.v = i3lock } },
 	{ MODKEY,                       XK_F5,     spawn,          {.v = lightdown } },
 	{ MODKEY,                       XK_F6,     spawn,          {.v = lightup } },
-	{ MODKEY,             			XK_Return, spawn,          {.v = termcmd } },
+	{ MODKEY,             		XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
