@@ -22,7 +22,12 @@
     flameshot gui   :   win + shift + S
     rofi run        :   win + Q
 
-## **best match**
+## **requirement**
+    alsa-utils
+    light
+## **optional**
     picom
     feh
-
+    ranger
+    
+    
