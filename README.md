@@ -1,4 +1,4 @@
-# Simple_Dwmi
+# Simple_Dwm
 # **My Dwm Simple Backup**
 
 ## **Fonts**
